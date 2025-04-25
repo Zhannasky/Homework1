@@ -20,7 +20,7 @@ a {
 
 .top {
     position: relative;
-    width: 1440px;
+    /* width: 1440px; */
     height: 800px;
     background-image: url(./img/toplogo.jpg);
     background-repeat: no-repeat;
@@ -30,7 +30,8 @@ a {
 }
 
 .top__title {
-    margin-top: 45px;
+    position: relative;
+    padding-top: 196px;
     width: 769px;
     font-size: 64px;
     font-weight: 700;
@@ -43,13 +44,14 @@ a {
     /* height: 710.06px; */
     top: -10px;
     position: absolute;
-    margin-left: 609px;
+    right: 0;
 }
 
 
 .top__star {
-    margin-top: 94px;
-    margin-left: -47px;
+    position: absolute;
+    top: 94px;
+    left: 108px;
 }
 
 
@@ -59,16 +61,16 @@ a {
     transition: fill 1s;
 }
 
-.top__star_nis {
+.top__star-nis {
     position: absolute;
     width: 83px;
     height: 83px;
-    margin-left: 800px;
-    margin-top: 149px;
+    right: 344px;
+    bottom: 149px;
 
 }
 
-.top__star_nis:hover {
+.top__star-nis:hover {
     transform: scale(1.2);
     transition: transform 0.3s;
     transition: fill 1s;
@@ -78,8 +80,8 @@ a {
     position: absolute;
     width: 35px;
     height: 35px;
-    margin-top: 69px;
-    margin-left: 41px;
+    top: 51px;
+    left: 203px;
     opacity: 0.5;
 }
 
@@ -89,15 +91,15 @@ a {
     transition: fill 1s;
 }
 
-.top__min_nis {
+.top__min-nis {
     position: absolute;
     width: 35px;
     height: 35px;
-    margin-left: 769px;
-    margin-top: 100px;
+    right: 455px;
+    bottom: 225px;
 }
 
-.top__min_nis:hover {
+.top__min-nis:hover {
     transform: scale(1.2);
     transition: transform 0.3s;
     transition: fill 1s;
@@ -113,11 +115,11 @@ a {
     font-size: 24px;
     line-height: 32px;
     margin-top: 24px;
-    margin-bottom: 16px;
+    /* margin-bottom: 16px; */
     width: 720px;
     /* height: 64px; */
     color: #000;
-    padding-top: 16px;
+    /* padding-top: 16px; */
 }
 
 .top__info {
@@ -125,10 +127,11 @@ a {
     text-transform: uppercase;
     font-size: 30px;
     background: #BCEC30;
-    width: 1440px;
+    /* width: 1440px; */
     height: 90px;
-    margin-left: -246px;
-    margin-top: 148px;
+    left: -161px;
+    margin-right: -321px;
+    margin-top: 184px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -172,8 +175,8 @@ a {
 
 .for-star {
     position: absolute;
-    margin-top: 394px;
-    margin-left: -100px;
+    top: 770px;
+    left: 25px;
 }
 
 .for-star:hover {
@@ -183,9 +186,9 @@ a {
 }
 
 .for-starbig {
-    margin-left: -72px;
+    left: 40px;
     position: absolute;
-    margin-top: 477px;
+    top: 822px;
 }
 
 .for-starbig:hover {
@@ -196,8 +199,8 @@ a {
 
 .zvezda-min {
     position: absolute;
-    right: 375px;
-    margin-top: 3417px;
+    right: 241px;
+    top: 5687px;
 }
 
 .zvezda-min:hover {
@@ -208,8 +211,8 @@ a {
 
 .zvezda-max {
     position: absolute;
-    right: 315px;
-    margin-top: 3367px;
+    right: 143px;
+    top: 5643px;
 }
 
 .zvezda-max:hover {
@@ -226,7 +229,7 @@ a {
     border-radius: 30px;
 }
 
-.for__container_nis {
+.for__container-nis {
     display: flex;
     align-items: flex-end;
     gap: 32px;
@@ -269,7 +272,7 @@ a {
     background-size: cover;
     font-size: 34px;
     line-height: 41px;
-    text-align: center;
+    /* text-align: center; */
     /* color: #FFFFFF; */
     border-radius: 30px;
     position: relative;
@@ -279,29 +282,29 @@ a {
     transform: scale(1.05);
 }
 
-.for__item_big {
+.for__item-big {
     background: #fff;
     width: 378px;
     height: 551px;
     border-radius: 30px;
 }
 
-.for__item_big:hover {
+.for__item-big:hover {
     transform: scale(1.05);
 }
 
-.for__item_average {
+.for__item-average {
     height: 512px;
     width: 378px;
     background: #FFFFFF;
     border-radius: 30px;
 }
 
-.for__item_average:hover {
+.for__item-average:hover {
     transform: scale(1.05);
 }
 
-.for__item_img {
+.for__item-img {
     width: 100%;
     height: 314px;
     background-size: cover;
@@ -313,7 +316,7 @@ a {
     /* background-color: #fff; */
 }
 
-.for__menu {
+.for-menu {
     height: 3500px;
     width: 1440px;
     background: #000;
@@ -323,13 +326,13 @@ a {
     padding-left: 114px;
 }
 
-.menu__img {
+.menu-img {
     width: 100%;
     height: 500px;
     background-size: cover;
 }
 
-.menu__asort {
+.menu-asort {
     width: 1200px;
     height: 500px;
     background: #fff;
@@ -357,7 +360,7 @@ a {
     padding-bottom: 72px;
 }
 
-.menu__container {
+.menu-container {
     display: flex;
     flex-direction: row-reverse;
     background: #fff;
@@ -366,7 +369,7 @@ a {
     border-radius: 30px;
 }
 
-.menu__container_big {
+.menu-container-big {
     display: flex;
     background: #fff;
     height: 500px;
@@ -376,7 +379,7 @@ a {
 
 }
 
-.menu__name {
+.menu-name {
     font-weight: 700;
     font-size: 48px;
     line-height: 100%;
@@ -385,7 +388,7 @@ a {
     padding-bottom: 24px;
 }
 
-.menu__text {
+.menu-text {
     font-size: 24px;
     line-height: 32px;
     color: #000;
@@ -417,7 +420,7 @@ a {
     transition: fill 1s;
 }
 
-.heading__text {
+.heading-text {
     color: #fff;
     /* width: 788px; */
     font-size: 24px;
@@ -427,14 +430,21 @@ a {
 }
 
 .button {
+    display: block;
     width: 247px;
     height: 66px;
     font-size: 24px;
+    font-family: inherit;
     border: 1px solid #202027;
     border-radius: 60px;
     margin-top: 48px;
     background-color: #000;
     color: #fff;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-decoration: none;
+    padding-left: 65px;
+    padding-right: 65px;
 
 }
 
