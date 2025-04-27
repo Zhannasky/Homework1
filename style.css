@@ -29,10 +29,15 @@ a {
 
 }
 
+.top-main {
+    /* width: 769px; */
+    height: 358px;
+}
+
 .top__title {
     position: relative;
     padding-top: 196px;
-    width: 769px;
+    /* width: 769px; */
     font-size: 64px;
     font-weight: 700;
     line-height: 100%;
@@ -116,7 +121,7 @@ a {
     line-height: 32px;
     margin-top: 24px;
     /* margin-bottom: 16px; */
-    width: 720px;
+    /* width: 720px; */
     /* height: 64px; */
     color: #000;
     /* padding-top: 16px; */
@@ -129,9 +134,9 @@ a {
     background: #BCEC30;
     /* width: 1440px; */
     height: 90px;
-    left: -161px;
-    margin-right: -321px;
-    margin-top: 184px;
+    /* left: -161px;
+    margin-right: -321px; */
+    margin-top: 353px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -142,7 +147,7 @@ a {
 .for-box {
     position: relative;
     background: #000;
-    width: 1440px;
+    /* width: 1440px; */
     height: 1470px;
 
 }
@@ -199,8 +204,8 @@ a {
 
 .zvezda-min {
     position: absolute;
-    right: 241px;
-    top: 5687px;
+    right: 150px;
+    bottom: 45px;
 }
 
 .zvezda-min:hover {
@@ -211,8 +216,8 @@ a {
 
 .zvezda-max {
     position: absolute;
-    right: 143px;
-    top: 5643px;
+    right: 52px;
+    bottom: 65px;
 }
 
 .zvezda-max:hover {
@@ -317,13 +322,14 @@ a {
 }
 
 .for-menu {
+    position: relative;
     height: 3500px;
-    width: 1440px;
+    /* width: 1440px; */
     background: #000;
     display: flex;
     gap: 32px;
     flex-direction: column;
-    padding-left: 114px;
+    /* padding-left: 114px; */
 }
 
 .menu-img {
@@ -398,8 +404,8 @@ a {
 
 .menu-star {
     position: absolute;
-    right: 177px;
-    margin-top: 47px;
+    right: 124px;
+    top: 93px;
 }
 
 .menu-star:hover {
@@ -410,8 +416,8 @@ a {
 
 .menu-starbig {
     position: absolute;
-    right: 104px;
-    margin-top: 143px;
+    right: 46px;
+    top: 126px;
 }
 
 .menu-starbig:hover {
@@ -438,6 +444,7 @@ a {
     border: 1px solid #202027;
     border-radius: 60px;
     margin-top: 48px;
+    /* margin-left: 160px; */
     background-color: #000;
     color: #fff;
     padding-top: 16px;
@@ -475,7 +482,7 @@ a {
 
 .footer {
     height: 150px;
-    width: 1440px;
+    /* width: 1440px; */
     background: #BDED35;
     /* justify-content: center;  */
 }
