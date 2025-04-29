@@ -169,7 +169,7 @@ a {
 .for-zvezda {
     margin-top: -275px;
     position: absolute;
-    left: 1014px;
+    right: 0;
 }
 
 .for-zvezda:hover {
