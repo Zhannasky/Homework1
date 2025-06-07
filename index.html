@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Homework1</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
@@ -13,17 +13,53 @@
 </head>
 
 <body>
-    <div class="top">
+    <div class="top center">
         <img class="top__vector" src="./img/vector.png" alt="vector">
+        <img class="top-mob" src="./img/vector1.png" alt="vector1">
         <img class="top__min" src="./img/star3.svg" alt="star">
         <img class="top__star" src="./img/star.svg" alt="star">
         <section class="top-main center">
-            <h1 class="top__title center">Добро пожаловать <br>на мой сайт мини-игр</h1>
+            <h1 class="top__title center top__title_mobile center">Добро пожаловать <br>на мой сайт мини-игр</h1>
             <p class="top__text center">Тебе предстоит пройти несколько увлекательных игр.<br>Если готов, нажимай
                 <span class="select"><a class="top__text" href="#for">«Поехали!» и приступай.</a></span>
+            <p class="top__text center top__text_mobile">Тебе предстоит пройти несколько увлекательных игр.<br>Если
+                готов, нажимай
+                <span class="select"><a class="top__text" href="#for">«Поехали!»иприступай.</a></span>
             </p>
             <a href="#for" class="button center">Поехали!</a>
         </section>
+        <div class="top-main_mobile center">
+            <h1 class="top__title_mobile center">Добро пожаловать <br>на мой сайт <br>мини-игр</h1>
+            <p class="top__text_mobile center">Тебе предстоит пройти&nbspнесколько увлекательных игр. Если готов,<br>
+                нажимай
+                <span class="select"><a class="top__text" href="#for">«Поехали!» и&nbspприступай.</a></span>
+            </p>
+            <a href="#menu" class="button__mobile">Поехали!</a>
+            <img class="top__min-nis" src="./img/star.svg" alt="star">
+            <p class="top__info-mobile">Викторина <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M10.0665 0L12.6782 7.0579L19.7361 9.66956L12.6782 12.2812L10.0665 19.3391L7.45487 12.2812L0.396973 9.66956L7.45487 7.0579L10.0665 0Z" fill="#202027"/>
+</svg>
+
+
+                угадай число <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M10.0665 0L12.6782 7.0579L19.7361 9.66956L12.6782 12.2812L10.0665 19.3391L7.45487 12.2812L0.396973 9.66956L7.45487 7.0579L10.0665 0Z" fill="#202027"/>
+</svg>
+
+                <!-- переверни текст <svg width="36" height="36" viewBox="0 0 36 36" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M18 0L22.8616 13.1384L36 18L22.8616 22.8616L18 36L13.1384 22.8616L0 18L13.1384 13.1384L18 0Z"
+                        fill="#202027" />
+                </svg>
+                Простая арифметика <svg width="36" height="36" viewBox="0 0 36 36" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M18 0L22.8616 13.1384L36 18L22.8616 22.8616L18 36L13.1384 22.8616L0 18L13.1384 13.1384L18 0Z"
+                        fill="#202027" />
+                </svg> -->
+            </p>
+        </div>
+
         <img class="top__star-nis" src="./img/star1.svg" alt="star">
         <img class="top__min-nis" src="./img/star.svg" alt="star">
         <!-- <img class="top__vector_min" src="./img/vector.png" alt="star"> -->
@@ -129,7 +165,7 @@
         </div>
     </div>
     <div class="for-menu center">
-        <h2 class="menu">Мини-игры</h2>
+        <h2 id="#menu" class="menu">Мини-игры</h2>
         <!-- звезды к мини играм -->
         <div class="menu-star" href="#"><svg width="36" height="36" viewBox="0 0 36 36" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
@@ -147,7 +183,8 @@
         </div>
         <div class="menu-container" id="game1">
             <a class="menu-img" href="#game1"><img src="./img/for1_1.png" alt="for"></a>
-            <div class="menu-asort">
+            <a class="menu-mob"><img src="./img/mob1.png" alt="for"></a>
+            <div class="menu-asort center">
                 <h3 class="menu-name">Угадай число</h3>
                 <p class="menu-text">Попробуй угадать случайное<br>число от 1 до 100.</p>
                 <button class="bt">Играть!</button>
@@ -155,7 +192,8 @@
         </div>
         <div class="menu-container-big" id="game2">
             <a class="menu-img" href="#game2"><img src="./img/for2_2.png" alt="for"></a>
-            <div class="menu-asort">
+            <a class="menu-mob"><img src="./img/mob2.png" alt="for"></a>
+            <div class="menu-asort center">
                 <h3 class="menu-name">Простая арифметика</h3>
                 <p class="menu-text">Попробуй решить простые арифметические задачи.</p>
                 <button class="bt">Играть!</button>
@@ -163,35 +201,42 @@
         </div>
         <div class="menu-container" id="game3">
             <a class="menu-img" href="#game3"><img src="./img/for3_3.png" alt="for"></a>
-            <div class="menu-asort">
-                <h3 class="menu-name">Переверни текст</h3>
-                <p class="menu-text">Попробуй ввести текст, который<br>будет перевернут.</p>
+            <a class="menu-mob"><img src="./img/mob3.png" alt="for"></a>
+            <div class="menu-asort center">
+                <h3 class="menu-name-box">Переверни текст</h3>
+                <h3 class="menu-name_mobile">Переверни<br> текст</h3>
+                <p class="menu-text">Попробуй ввести текст,&nbspкоторый<br>будет перевернут.</p>
                 <button class="bt">Играть!</button>
             </div>
 
         </div>
-        <div class="menu-container-big" id="game4">
+        <div class="menu-container-big menu-container-big-mob" id="game4">
             <a class="menu-img" href="#game4"><img src="./img/for4_4.png" alt="for"></a>
-            <div class="menu-asort">
-                <h3 class="menu-name">Викторина</h3>
-                <p class="menu-text">Отвечай на вопросы викторины<br>с вариантами ответов.</p>
-                <button class="bt">Играть!</button>
-            </div>
-
-        </div>
-        <div class="menu-container" id="game5">
-            <a class="menu-img" href="#game5"><img src="./img/for5_5.png" alt="for"></a>
-            <div class="menu-asort">
+            <a class="menu-mob"><img src="./img/mob4.png" alt="for"></a>
+            <div class="menu-asort center">
                 <h3 class="menu-name">Камень, <br>ножницы, <br>бумага</h3>
                 <p class="menu-text">Сыграй в популярную игру<br> против компьютера.</p>
                 <button class="bt">Играть!</button>
             </div>
+
         </div>
-        <div class="menu-container-big" id="game6">
+        <div class="menu-container menu-container-big" id="game5">
+            <a class="menu-img" href="#game5"><img src="./img/for5_5.png" alt="for"></a>
+            <a class="menu-mob"><img src="./img/mob5.png" alt="for"></a>
+            <div class="menu-asort center">
+                <h3 class="menu-name">Простая викторина</h3>
+                <p class="menu-text">Отвечай на вопросы викторины <br>с вариантами ответов.</p>
+                <button class="bt">Играть!</button>
+            </div>
+        </div>
+        <div class="menu-container-big menu-container-big-mobile" id="game6">
             <a class="menu-img" href="#game6"><img src="./img/for6_6.png" alt="for"></a>
-            <div class="menu-asort">
+            <a class="menu-mob"><img src="./img/mob6.png" alt="for"></a>
+            <div class="menu-asort center">
                 <h3 class="menu-name">Генератор случайных <br>цветов</h3>
-                <p class="menu-text">Игра, в которой при клике на кнопку<br>фон страницы меняется на случайный.</p>
+                <p class="menu-text_box">Игра, в которой при клике на кнопку<br>фон страницы меняется на случайный.</p>
+                <p class="menu-text_mobile">Игра, в которой при клике<br> на кнопку фон страницы<br>меняется на
+                    случайный.</p>
                 <button class="bt">Играть!</button>
             </div>
         </div>
