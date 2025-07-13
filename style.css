@@ -369,7 +369,6 @@ a {
   color: #fff;
   font-weight: 700;
   font-size: 64px;
-  line-height: 100%;
   padding-top: 46px;
   padding-bottom: 72px;
 }
@@ -397,6 +396,15 @@ a {
 }
 
 .menu-name {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 100%;
+  color: #000;
+  padding-top: 48px;
+  padding-bottom: 24px;
+}
+
+.menu-name-box {
   font-weight: 700;
   font-size: 48px;
   line-height: 100%;

@@ -37,6 +37,7 @@ a {
 .top-main_mobile {
     display: none;
 }
+
 .top__title {
     position: relative;
     padding-top: 196px;
@@ -377,7 +378,7 @@ a {
     color: #fff;
     font-weight: 700;
     font-size: 64px;
-    line-height: 100%;
+    // line-height: 100%;
     padding-top: 46px;
     padding-bottom: 72px;
 }
@@ -415,6 +416,16 @@ a {
     padding-top: 48px;
     padding-bottom: 24px;
 }
+
+.menu-name-box {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    color: #000;
+    padding-top: 48px;
+    padding-bottom: 24px;
+}
+
 
 .menu-name_mobile {
     display: none;
@@ -474,6 +485,7 @@ a {
 .button__mobile {
     display: none;
 }
+
 .button {
     display: block;
     width: 247px;
@@ -493,6 +505,7 @@ a {
     padding-right: 65px;
 
 }
+
 .button:hover {
     cursor: pointer;
     background-color: #fff;
@@ -537,4 +550,3 @@ a {
 }
 
 @import 'mobile';
-
