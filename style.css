@@ -138,10 +138,9 @@ a {
   text-transform: uppercase;
   font-size: 30px;
   background: #BCEC30;
-  /* width: 1440px; */
+  width: 1440px;
   height: 90px;
-  /* left: -161px;
-  margin-right: -321px; */
+  left: -161px;
   margin-top: 353px;
   display: flex;
   align-items: center;
