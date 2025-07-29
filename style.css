@@ -138,7 +138,7 @@ a {
   text-transform: uppercase;
   font-size: 30px;
   background: #BCEC30;
-  width: 1440px;
+  width: 1520px;
   height: 90px;
   left: -161px;
   margin-top: 353px;
@@ -539,11 +539,16 @@ a {
     padding-right: 16px;
   }
   .top {
+    width: 100%;
     height: 700px;
+    display: flex;
+    justify-content: center;
   }
   .top__title_mobile {
     font-size: 40px;
     text-align: center;
+    width: 296px;
+    height: 196px;
   }
   .top__info {
     display: none;
@@ -607,6 +612,7 @@ a {
     display: block;
     padding-top: 147px;
     padding-bottom: 24px;
+    width: 343px;
   }
   .menu {
     font-size: 40px;
@@ -697,6 +703,7 @@ a {
     height: 3681.78px;
     padding-bottom: 9.88px;
     gap: 24px;
+    align-items: anchor-center;
   }
   .button {
     display: none;
